@@ -1,0 +1,118 @@
+/* TaskListScreen.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #94b877, #b2ccab, #79e7b9, #c0e069);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .task-list-container {
+    background: linear-gradient(135deg, #627a4f, #83977e, #61ad8d, #8da34e);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+  }
+  
+  .head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-list-container h2 {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:3px;
+  }
+  .task-list-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .task-list-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+  }
+  
+  .task-list {
+    padding: 0;
+    
+  }
+  
+  .task-item {
+    margin-bottom: 10px;
+  }
+  
+  .task-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .task-link:hover {
+    background-color: #bbf5e2;
+    border-color: #ccc;
+  }
+  
+  .task-title {
+    flex: 1;
+  }
+  
+  .task-status {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .task-due-date {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .create-task-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .create-task-button:hover {
+    background-color: #218838;
+  }
+  

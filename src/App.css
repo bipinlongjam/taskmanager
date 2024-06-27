@@ -1,0 +1,7 @@
+.heading{
+  background: linear-gradient(135deg, #94b877, #b2ccab, #79e7b9, #c0e069);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+}
